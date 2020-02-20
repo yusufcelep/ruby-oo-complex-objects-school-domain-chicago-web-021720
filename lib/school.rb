@@ -1,19 +1,5 @@
 class School
-  # attr_accessor :new, :roster, :add_student, :grade
-  
-  # def initialize(new)
-  #   @new = new
-  # end
-  
-  # def roster
-  #   hash = {}
-  # end
-  
-  # def add_student(name, grade)
-  #   self.roster = hash[grade] = []
-  #   self.roster = hash[grade] << name
-  # end
-    def initialize(name)
+  def initialize(name)
     @name = name
     @roster = {}
   end
@@ -40,4 +26,3 @@ class School
     end
   end
 end
-
